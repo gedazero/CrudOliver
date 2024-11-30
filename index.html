@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD pa oliver</title>
+
+    <link rel="stylesheet" href="style.css">    <!-- Vinculación del CSS pa que no se me olvide -->
+</head>
+<body>
+    <div class="container">
+        <h1>Oliver Es Marico</h1>
+     
+        <body>
+            <img src="Michito.jpg" alt="Header Image" class="header-img"><!-- La imagen del michi -->
+    
+        </body>
+        
+
+        <form id="form">   <!-- Formulario chungo -->
+            <input type="text" id="Nombre del michi" placeholder="Como se llama tu michi?" required>
+            <input type="Number" id="Edad del michi" placeholder="Que edad tiene tu michi?" required>
+            <input type="Text" id="Color del michi" placeholder="De que color es tu michi?" required>
+            <button type="submit">Añadir Campo</button>
+        </form>
+        <!-- Tabla pa los elementos -->
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Color</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script><!-- Vinculación del JS pa que no se me olvide -->
+</body>
+</html>
